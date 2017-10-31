@@ -1,7 +1,7 @@
 # datetime-picker
 移动端时间日期控件
-![日期](https://github.com/vue-tools/vt-datetime-picker/img/date.png)
-![时间](https://github.com/vue-tools/vt-datetime-picker/img/time.png)
+![日期](https://raw.githubusercontent.com/vue-tools/vt-datetime-picker/master/img/date.png)
+![时间](https://raw.githubusercontent.com/vue-tools/vt-datetime-picker/master/img/time.png)
 
 # Use
 ```shell
