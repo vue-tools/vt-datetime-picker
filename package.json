@@ -69,8 +69,6 @@
     "codecov": "./node_modules/.bin/codecov",
     "copy": "rm -fr dist && cp -rf src dist",
     "compile": "npm run copy && node_modules/.bin/babel dist -d dist",
-    "tag": "node .tag add $1",
-    "tag:delete": "git tag -d $1 && git push origin --delete tag $1"
   },
   "dependencies": {
     "vt-picker": "^1.0.2"
