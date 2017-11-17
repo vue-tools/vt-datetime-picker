@@ -4,9 +4,9 @@
 ![日期](https://raw.githubusercontent.com/vue-tools/vt-datetime-picker/c5f5ae73a6f3216239b12df5a3b520005ee962ce/img/date.png)
 ![时间](https://raw.githubusercontent.com/vue-tools/vt-datetime-picker/master/img/time.png)
 
-# Use
+# Use 
 ```shell
-$ npm install vt-datetime-picker -s
+$ npm install vt-datetime-picker --save
 ```
 
 ```shell
@@ -14,12 +14,14 @@ $ npm install vt-datetime-picker -s
  
  Vue.component('DatetimePicker', datetimePicker)
 ```
- # ependent
+ 
+# Dependent 
  
 该组件依赖[vt-picker](https://github.com/vue-tools/vt-picker)组件
  
- # Api
- ### Props 
+# Api 
+ 
+### Props 
 *   `value` String类型，默认选中的值，可以是空字符串，**更改该属性，组件立刻更新**
 *   `type` 时间日期的输出类型，如 `yyyy-MM-dd hh:mm:ss`,分隔字符支持自定义
     - yyyy:年份
@@ -30,6 +32,6 @@ $ npm install vt-datetime-picker -s
     - ss:秒数
 *   `max` 能选择最大日期，默认`2099-12-31`
 
-# Waring
+# Waring #
 * 该组件必须有v-model指令，否则会发生错误
 * `type`属性 `年` `月` `日`  `时` `分` `秒` 必须是连续的，不支持如`yyyy-MM hh:mm`这种格式

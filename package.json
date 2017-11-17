@@ -1,6 +1,6 @@
 {
   "name": "vt-datetime-picker",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/vue-tools/vt-datetime-picker"
@@ -68,7 +68,7 @@
     "prepublish": "npm run compile",
     "codecov": "./node_modules/.bin/codecov",
     "copy": "rm -fr dist && cp -rf src dist",
-    "compile": "npm run copy && node_modules/.bin/babel dist -d dist",
+    "compile": "npm run copy && node_modules/.bin/babel dist -d dist"
   },
   "dependencies": {
     "vt-picker": "^1.0.2"
